@@ -34,7 +34,7 @@ const nevItems = [
 
 const page = () => {
   return (
-    <div className="h-12 w-full font-serif text-white  p-12 flex justify-between items-center">
+    <div className=" fixed bg-black h-12 w-full font-serif text-white  p-12 flex justify-between items-center">
       <div className="flex items-center">
         <SiCoffeescript size={30} />
         <h2 className="p-2 text-4xl ">CoffeeQ</h2>
