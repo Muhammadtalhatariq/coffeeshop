@@ -1,13 +1,15 @@
 import React from "react";
-import Home from "./components/Home/page"
-import About from "./components/About/page"
-import Feature from "./components/Feature/page"
+import Home from "./components/Home/page";
+import About from "./components/About/page";
+import Feature from "./components/Feature/page";
+import Menu from "./components/Menu/page";
 const page = () => {
   return (
     <div>
-      <Home/>
-      <About/>
-      <Feature/>
+      <Home />
+      <About />
+      <Feature />
+      <Menu />
     </div>
   );
 };
