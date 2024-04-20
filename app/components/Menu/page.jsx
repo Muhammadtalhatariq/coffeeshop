@@ -70,11 +70,11 @@ const page = () => {
         <h1 className="text-4xl font-normal leading-snug pb-6 text-center">
           Let's Check Our Menu
         </h1>
-        <div className="flex flex-wrap gap-10 px-20">
+        <div className="flex flex-wrap gap-10 sm:px-20 m-1">
           {menus.map((menu) => (
-            <div key={menu.id} className="flex flex-wrap bg-neutral-950 ">
-              <div className="flex justify-between items-center px-14 py-10 gap-10">
-                <div className="flex gap-5">
+            <div key={menu.id} className="flex flex-wrap bg-neutral-950 px-2 ">
+              <div className="flex justify-between items-center sm:px-14 px-2 sm:py-10 py-2 gap-2 sm:gap-10">
+                <div className="flex flex-col sm:flex-row gap-5">
                   <div className=" rounded-[100%] h-16 w-16 border-dashed border-4 border-green-500"></div>
                   <div>
                     <h1 className="text-green-500 pb-2 tracking-widest">
@@ -83,7 +83,8 @@ const page = () => {
                     <h1 className="text-sm font-serif">{menu.description}</h1>
                   </div>
                 </div>
-                <div className="border-dashed border-s-4 border-green-500  px-8">
+                <div
+                  className="border-dashed border-s-4 border-green-500 px-8">
                   <h2>{menu.price}</h2>
                 </div>
               </div>
