@@ -18,6 +18,10 @@ const nevItems = [
     path: "#Feature",
   },
   {
+    name: "Menu",
+    path: "#Menu",
+  },
+  {
     name: "Chefs",
     path: "#Chefs",
   },
@@ -25,10 +29,7 @@ const nevItems = [
     name: "Gallery",
     path: "#Gallery",
   },
-  {
-    name: "Menu",
-    path: "#Menu",
-  },
+ 
   {
     name: "Testimonials",
     path: "#Testimonials",
@@ -50,7 +51,7 @@ const page = () => {
           <h2 className="p-2 sm:text-4xl text-2xl ">CoffeeQ</h2>
         </div>
         <div>
-          <ul className="hidden md:flex list-none gap-5">
+          <ul className="hidden md:flex list-none gap-5 ">
             {nevItems.map((item) => (
               <li className="hover:text-green-600" key={item.path}>
                 <Link href={item.path}>{item.name}</Link>

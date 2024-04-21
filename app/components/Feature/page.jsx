@@ -1,32 +1,31 @@
 import React from "react";
-import { GrCertificate } from "react-icons/gr";
 
 const page = () => {
   const features = [
     {
       id: 1,
-      img: "/2-img.webp",
+      img: "/free-delivery.svg",
       title: "Free Shipping",
       description:
         "It is a long established fact that a reader will be by the readable content of a page looking at its layout.",
     },
     {
       id: 2,
-      // img: "<GrCertificate />",
+      img: "/certified.svg",
       title: "Organic Certified",
       description:
         "It is a long established fact that a reader will be by the readable content of a page looking at its layout.",
     },
     {
       id: 3,
-      // img: coffee,
+      img:"/coffee.svg" ,
       title: "High Quality",
       description:
         "It is a long established fact that a reader will be by the readable content of a page looking at its layout.",
     },
     {
       id: 4,
-      // img: coffeeBeans,
+      img: "/coffee-beans.svg",
       title: "Proper Roasting",
       description:
         "It is a long established fact that a reader will be by the readable content of a page looking at its layout.",
