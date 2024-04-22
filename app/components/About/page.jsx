@@ -15,19 +15,19 @@ const page = () => {
           <p className="text-4xl font-normal leading-snug pb-6 text-center">
             Fresh Quality And Organic Tasty Coffee House For You
           </p>
-          <p className=" leading-7 text-sm font-serif text-start text-gray-300 pb-4">
+          <p className=" leading-7 text-sm font-serif text-start text-neutral-400 pb-4">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form, by injected
             humour, or randomised words which don't look even slightly
             believable.
           </p>
-          <p className="flex gap-2 items-center font-serif text-gray-300 pb-1 ">
+          <p className="flex gap-2 items-center font-serif text-neutral-400 pb-1 ">
             <TiTick size={20} /> At vero eos et accusamus et iusto odio
           </p>
-          <p className="flex gap-2 items-center font-serif text-gray-300 pb-1 ">
+          <p className="flex gap-2 items-center font-serif text-neutral-400 pb-1 ">
             <TiTick size={20} /> At vero eos et accusamus et iusto odio
           </p>
-          <p className="flex gap-2 items-center font-serif text-gray-300 pb-10">
+          <p className="flex gap-2 items-center font-serif text-neutral-400 pb-10">
             <TiTick size={20} /> At vero eos et accusamus et iusto odio
           </p>
 

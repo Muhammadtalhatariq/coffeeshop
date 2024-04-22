@@ -22,14 +22,13 @@ const nevItems = [
     path: "#Menu",
   },
   {
-    name: "Chefs",
-    path: "#Chefs",
-  },
-  {
     name: "Gallery",
     path: "#Gallery",
   },
- 
+  {
+    name: "Chefs",
+    path: "#Chefs",
+  },
   {
     name: "Testimonials",
     path: "#Testimonials",

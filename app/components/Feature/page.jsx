@@ -1,36 +1,38 @@
 import React from "react";
 
+const features = [
+  {
+    id: 1,
+    img: "/free-delivery.svg",
+    title: "Free Shipping",
+    description:
+      "It is a long established fact that a reader will be by the readable content of a page looking at its layout.",
+  },
+  {
+    id: 2,
+    img: "/certified.svg",
+    title: "Organic Certified",
+    description:
+      "It is a long established fact that a reader will be by the readable content of a page looking at its layout.",
+  },
+  {
+    id: 3,
+    img:"/coffee.svg" ,
+    title: "High Quality",
+    description:
+      "It is a long established fact that a reader will be by the readable content of a page looking at its layout.",
+  },
+  {
+    id: 4,
+    img: "/coffee-beans.svg",
+    title: "Proper Roasting",
+    description:
+      "It is a long established fact that a reader will be by the readable content of a page looking at its layout.",
+  },
+];
+
 const page = () => {
-  const features = [
-    {
-      id: 1,
-      img: "/free-delivery.svg",
-      title: "Free Shipping",
-      description:
-        "It is a long established fact that a reader will be by the readable content of a page looking at its layout.",
-    },
-    {
-      id: 2,
-      img: "/certified.svg",
-      title: "Organic Certified",
-      description:
-        "It is a long established fact that a reader will be by the readable content of a page looking at its layout.",
-    },
-    {
-      id: 3,
-      img:"/coffee.svg" ,
-      title: "High Quality",
-      description:
-        "It is a long established fact that a reader will be by the readable content of a page looking at its layout.",
-    },
-    {
-      id: 4,
-      img: "/coffee-beans.svg",
-      title: "Proper Roasting",
-      description:
-        "It is a long established fact that a reader will be by the readable content of a page looking at its layout.",
-    },
-  ];
+
 
   return (
     <div
@@ -57,7 +59,7 @@ const page = () => {
                   alt={feature.title}
                 />
                 <h2 className="p-2 text-2xl">{feature.title}</h2>
-                <p className="p-2 font-serif text-black-700 font-normal ">
+                <p className="p-2 font-serif text-black-700 font-normal text-neutral-400 ">
                   {feature.description}
                 </p>
               </div>
