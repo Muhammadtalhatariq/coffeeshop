@@ -1,0 +1,95 @@
+
+.offer{
+  background: url(/menu.jpg);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+} 
+.offer::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: var(0, 0%, 0%, 0.75);
+
+}
+.offer .section__title {
+  position: relative;
+  z-index: 1;
+}
+
+
+
+.offer__img-wrapper {
+  margin-right: 5rem;
+}
+
+.offer__content {
+  background-color:black;
+  padding: 2.75rem 2.25rem;
+  position: relative;
+}
+
+.offer__content::before{
+  content: '';
+  position: absolute;
+  inset: 0.5rem;
+  border: 2px dashed rgb(59, 139, 59);
+}
+
+.offer__img,
+.offer__content,
+.offer__content::before {
+  border-radius: var(0.5rem);
+}
+
+.offer__title{
+  font-size: 2rem;
+  margin-bottom: 1.25rem;
+  color: aliceblue;
+}
+
+.offer__discount{
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.offer__description {
+  margin-block: 0.5rem 1.5rem;
+  color : rgb(225, 238, 237);
+  font-family:  sans-serif;
+  font-weight: 400;
+}
+
+.btn {
+  display: inline-block;
+  color: black;
+  background: rgb(80, 156, 80);
+  border: 2px solid  rgb(97, 158, 97);
+  padding: 1rem;
+
+}
+
+.btn:hover{
+  background-color: transparent;
+  color: white;
+}
+
+.swiper-pagination {
+  position: initial;
+  margin-top: 2rem;
+}
+
+.swiper-pagination-bullet {
+  width: 16px;
+  height: 16px;
+  border: 3px solid white;
+  background: transparent;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: violet;
+}

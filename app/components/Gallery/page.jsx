@@ -12,27 +12,42 @@ const page = () => {
           Our Photo gallery
         </p>
       </div>
-      <div className="flex flex-wrap flex-col sm:flex-row gap-5 px-20 ">
-        <div className=" h-96 w-96 bg-[url('/gallery-1.jpg')] bg-contain bg-no-repeat  ">
+      <div className="flex flex-wrap flex-col sm:flex-row gap-5 sm:px-14 ">
+      <div className="w-96 h-[420px] bg-[url('/gallery-1.jpg')] rounded-2xl bg-cover bg-no-repeat">
+        <h3 className="rounded-xl bg-neutral-800 text-center bottom-0 p-4 mx-6 mt-80">
+            Cappuccino Arabica
+          </h3>
+        </div>
+       
+        <div className="w-96 h-[420px] bg-[url('/gallery-2.jpg')] rounded-2xl bg-cover bg-no-repeat  ">
+        <h3 className="rounded-xl bg-neutral-800 text-center bottom-0 p-4 mx-6 mt-80">
+            Cappuccino Arabica
+          </h3>
+        </div>
 
-          <h3 className="rounded-xl bg-neutral-800 text-center px-24 p-4">Cappuccino Arabica</h3>
+        <div className="w-96 h-[420px] bg-[url('/gallery-3.jpg')] rounded-2xl bg-cover bg-no-repeat  ">
+        <h3 className="rounded-xl bg-neutral-800 text-center bottom-0 p-4 mx-6 mt-80">
+            Cappuccino Arabica
+          </h3>
         </div>
-        {/* <div className=" h-96 w-96 bg-[url('/gallery-2.jpg')] bg-contain bg-no-repeat  ">
-          <a href=""></a>
-          <h3 className=" rounded-xl bg-neutral-800 text-center px-24 p-4">Cappuccino Arabica</h3>
+
+        <div className="w-96 h-[420px] bg-[url('/gallery-4.jpg')] rounded-2xl bg-cover bg-no-repeat  ">
+        <h3 className="rounded-xl bg-neutral-800 text-center bottom-0 p-4 mx-6 mt-80">
+            Cappuccino Arabica
+          </h3>
         </div>
-        <div className="h-96 w-96 bg-[url('/gallery-3.jpg')] bg-contain bg-no-repeat  ">
-          <a href=""></a>
-          <h3 className=" rounded-xl bg-neutral-800 text-center px-24 p-4">Cappuccino Arabica</h3>
+
+        <div className="w-96 h-[420px] bg-[url('/gallery-5.jpg')] rounded-2xl bg-cover bg-no-repeat  ">
+        <h3 className="rounded-xl bg-neutral-800 text-center bottom-0 p-4 mx-6 mt-80">
+            Cappuccino Arabica
+          </h3>
         </div>
-        <div className=" h-96 w-96 bg-[url('/gallery-4.jpg')] bg-contain bg-no-repeat  ">
-          <a href=""></a>
-          <h3 className=" rounded-xl bg-neutral-800 text-center px-24 p-4">Cappuccino Arabica</h3>
+
+        <div className="w-96 h-[420px] bg-[url('/gallery-2.jpg')] rounded-2xl bg-cover bg-no-repeat  ">
+        <h3 className="rounded-xl bg-neutral-800 text-center bottom-0 p-4 mx-6 mt-80">
+            Cappuccino Arabica
+          </h3>
         </div>
-        <div className=" h-96 w-96 bg-[url('/gallery-5.jpg')] bg-contain bg-no-repeat  ">
-          <a href=""></a>
-          <h3 className="rounded-xl bg-neutral-800 text-center px-24 p-4">Cappuccino Arabica</h3>
-        </div> */}
       </div>
     </div>
   );

@@ -89,7 +89,7 @@ const Choose_us = [
 const page = () => {
   return (
     <div className="text-white w-full" id="Menu">
-      <div className="fixrd w-full  p-4 bg-[url('/menu.jpg')] bg-cover">
+      <div className="w-full p-4 bg-[url('/menu.jpg')] bg-cover">
         <div className=" py-20">
           <h2 className="text-3xl text-green-500 pb-4 text-center">Our Menu</h2>
           <h1 className="text-4xl font-normal leading-snug pb-6 text-center">
