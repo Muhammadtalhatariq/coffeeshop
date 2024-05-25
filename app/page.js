@@ -5,6 +5,7 @@ import Feature from "./components/Feature/page";
 import Menu from "./components/Menu/page";
 import Gallery from "./components/Gallery/page";
 import  Offer from "./components/offer/page"
+import Chefs from "./components/Chefs/page"
 const page = () => {
   return (
     <div>
@@ -14,6 +15,7 @@ const page = () => {
       <Menu />
       <Gallery />
       <Offer/>
+      <Chefs/>
     </div>
   );
 };
