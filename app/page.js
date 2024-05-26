@@ -6,6 +6,7 @@ import Menu from "./components/Menu/page";
 import Gallery from "./components/Gallery/page";
 import  Offer from "./components/offer/page"
 import Chefs from "./components/Chefs/page"
+import Testimonials from "./components/Testimonials/page"
 const page = () => {
   return (
     <div>
@@ -16,6 +17,7 @@ const page = () => {
       <Gallery />
       <Offer/>
       <Chefs/>
+  <Testimonials/>
     </div>
   );
 };

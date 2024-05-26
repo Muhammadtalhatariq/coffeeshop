@@ -7,7 +7,7 @@ const page = () => {
   const onSubmit = (data) => console.log(data);
 
   return (
-    <div className="bg-neutral-950 sm:mt-20 mt-10 py-12 sm:mx-16 mx-0  ">
+    <div className="bg-neutral-950 sm:mt-20 mt-10 py-12 sm:mx-16 mx-0" id="Reservation">
       <div>
         <h2 className="text-3xl text-green-500 pb-4 text-center">
           Reservation
