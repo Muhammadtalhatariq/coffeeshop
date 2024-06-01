@@ -26,7 +26,7 @@ const page = () => {
             </a>
             <a
               className="border-2 rounded-lg border-green-500 px-6 hover:bg-green-500 py-2"
-              href="#Booking"
+              href="#Reservation"
             >
               Book Table
             </a>

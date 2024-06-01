@@ -7,7 +7,8 @@ const page = () => {
   const onSubmit = (data) => console.log(data);
 
   return (
-    <div className="bg-neutral-950 sm:mt-20 mt-10 py-12 sm:mx-16 mx-0" id="Reservation">
+    <div className="bg-neutral-950 sm:mt-20 mt-10 py-12 sm:mx-16" id="Reservation">
+    
       <div>
         <h2 className="text-3xl text-green-500 pb-4 text-center">
           Reservation
@@ -29,7 +30,7 @@ const page = () => {
           />
           <input
             type="email"
-            {...register("lastName", { pattern: /^[A-Za-z]+$/i })}
+            {...register("Email", { pattern: /^[A-Za-z]+$/i })}
             className="p-4 w-80 rounded-2xl border-2 border-green-600 bg-neutral-700 text-green-600 text-sm "
             placeholder="Enter Your Email"
           />

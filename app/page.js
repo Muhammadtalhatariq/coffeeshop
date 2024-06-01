@@ -7,6 +7,7 @@ import Gallery from "./components/Gallery/page";
 import  Offer from "./components/offer/page"
 import Chefs from "./components/Chefs/page"
 import Testimonials from "./components/Testimonials/page"
+import Footer from "./components/Footer/page"
 const page = () => {
   return (
     <div>
@@ -18,6 +19,7 @@ const page = () => {
       <Offer/>
       <Chefs/>
   <Testimonials/>
+  <Footer/>
     </div>
   );
 };
