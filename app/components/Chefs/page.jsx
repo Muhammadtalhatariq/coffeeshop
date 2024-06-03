@@ -1,5 +1,5 @@
 import React from "react";
-import Reservation from "../Reservation/page"
+import Reservation from "../Reservation/page";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
@@ -46,12 +46,11 @@ const page = () => {
             Meet Our Experts
           </h1>
         </div>
-
         <div className="flex flex-wrap py-6 justify-center">
           {team.map((item, index) => (
             <Card
               key={index}
-              className="bg-neutral-950 mx-3 rounded-xl hover:-translate-y-2 "
+              className="bg-neutral-950 mx-3 rounded-xl hover:-translate-y-2 duration-1000 "
               sx={{ maxWidth: 300 }}
             >
               <CardActionArea>
@@ -60,6 +59,7 @@ const page = () => {
                   height="100"
                   image={item.img}
                   alt="green iguana"
+                  className="z-10"
                 />
                 <CardContent className="border-b-4 border-green-500">
                   <Typography
@@ -82,8 +82,8 @@ const page = () => {
             </Card>
           ))}
         </div>
-
-        <Reservation/>
+        
+        <Reservation />
       </div>
     </>
   );

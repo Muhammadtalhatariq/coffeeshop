@@ -3,16 +3,16 @@ import { TiTick } from "react-icons/ti";
 const page = () => {
   return (
     <div
-      className="text-white bg-neutral-950 w-full min-h-screen  py-32 p-4"
+      className="text-white bg-neutral-950 w-full min-h-screen  py-32 sm:px-32 p-4"
       id="About"
     >
-      <div className="flex sm:flex-row flex-col gap-4">
-        <div className="w-full bg-green-500 h-[22rem] sm:h-[30rem] ">
-          <div className="bg-[url('/1-img.jpg')] bg-cover w-[96%] h-[21rem] sm:h-[29rem] right-0 flex items-end"></div>
+      <div className="flex sm:flex-row flex-col gap-20">
+        <div className=" sm:w-[46rem] bg-green-500 h-[22rem] sm:h-[32rem] ">
+          <div className="bg-[url('/1-img.jpg')] bg-cover bg-no-repeat w-full h-[21rem] sm:h-[31rem] right-0 flex items-end"></div>
         </div>
         <div className="w-full">
           <p className="text-3xl text-green-500 pb-4 text-center">About Us</p>
-          <p className="text-4xl font-normal leading-snug pb-6 text-center">
+          <p className="text-4xl font-normal leading-snug pb-10 text-center">
             Fresh Quality And Organic Tasty Coffee House For You
           </p>
           <p className=" leading-7 text-sm font-serif text-start text-neutral-400 pb-4">
@@ -32,7 +32,7 @@ const page = () => {
           </p>
 
           <a
-            className="  border-2 border-green-500 font-serif rounded-lg px-6 bg-green-500 hover:bg-transparent py-2"
+            className="  border-2 border-green-500 font-serif rounded-lg px-6 bg-green-500 hover:bg-transparent duration-1000 py-2"
             href="#Menu"
           >
             our Expert

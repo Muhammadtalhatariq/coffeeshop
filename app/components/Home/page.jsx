@@ -19,13 +19,13 @@ const page = () => {
           </p>
           <div className="flex gap-6 pt-12">
             <a
-              className="border-2 border-green-500 rounded-lg px-6 bg-green-500 hover:bg-transparent py-2"
+              className="border-2 border-green-500 rounded-lg px-6 bg-green-500 hover:bg-transparent duration-1000 py-2"
               href="#Menu"
             >
               Menu
             </a>
             <a
-              className="border-2 rounded-lg border-green-500 px-6 hover:bg-green-500 py-2"
+              className="border-2 rounded-lg border-green-500 px-6 hover:bg-green-500 duration-1000 py-2"
               href="#Reservation"
             >
               Book Table

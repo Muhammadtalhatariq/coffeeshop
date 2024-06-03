@@ -1,14 +1,14 @@
 
 .offer{
   background: url(/menu.jpg);
-  position: relative;
+  /* position: relative; */
   background-repeat: no-repeat;
   background-size: cover;
   
 } 
 .offer::before {
   content: '';
-  position: absolute;
+  /* position: absolute; */
   left: 0;
   top: 0;
   background: var(0, 0%, 0%, 0.75);

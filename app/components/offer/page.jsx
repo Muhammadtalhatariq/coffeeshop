@@ -41,7 +41,7 @@ const offer = [
 
 const page = () => {
   return (
-    <section className="offer  py-20" id="offer">
+    <section className="offer py-20" id="offer">
       <div>
         <h2 className="text-3xl text-green-500 pb-4 text-center">Offer</h2>
         <h1 className="text-4xl font-normal leading-snug pb-6 text-center">
@@ -58,7 +58,7 @@ const page = () => {
         {offer.map((item, index) => {
           return (
             <SwiperSlide className="" key={index}>
-              <div className=" flex flex-col sm:flex-row sm:px-20 px-2 relative" >
+              <div className="flex flex-col sm:flex-row sm:px-20 px-2 relative">
                 <div className="h-[20rem]sm:h-[30rem] w-[20rem] sm:w-[40rem]">
                   <img
                     src={item.img}
@@ -66,11 +66,9 @@ const page = () => {
                     className=" h-[20rem]sm:h-[30rem] w-[20rem] sm:w-[40rem]"
                   />
                 </div>
-
                 <div className="offer__content sm:w-96 w-80 h-[26rem] sm:h-[22rem] sm:top-10 absolute sm:right-16">
                   <h3 className="offer__title">{item.title}</h3>
                   <span className="offer__discount">{item.discount}</span>
-
                   <p className="offer__description">{item.description}</p>
                   <a href="/" className="btn">
                     Order Now
