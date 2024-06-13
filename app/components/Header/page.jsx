@@ -67,7 +67,7 @@ const page = () => {
             </div>
             <div className="">
               {openMenu && (
-                <div className="fixed h-48 w-full list-none gap-5 bg-white text-black top-12 left-0">
+                <div className="fixed h-48 w-full list-none gap-5 bg-white text-black top-12 left-0 animate-slide-down">
                   <ul className=" flex flex-col items-center gap-1">
                     {nevItems.map((item) => (
                       <li
