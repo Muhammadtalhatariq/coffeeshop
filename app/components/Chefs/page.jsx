@@ -46,7 +46,7 @@ const page = () => {
         </h1>
       </div>
       <div className="flex flex-wrap py-6 justify-center">
-        {team.map((item, index) => (
+        {team.map((item , index) => (
           <Card
             key={index}
             className="bg-neutral-950 mx-3 rounded-xl hover:-translate-y-2 duration-1000 "
