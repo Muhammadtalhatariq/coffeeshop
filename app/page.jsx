@@ -1,5 +1,5 @@
 import React from "react";
-import Home from "./_components/Home";
+import Home from "./_components/Home/index.jsx";
 import About from "./_components/About/index.jsx";
 import Feature from "./_components/Feature/index.jsx";
 import Menu from "./_components/Menu/index.jsx";
@@ -16,10 +16,10 @@ const App = () => {
       <Feature />
       <Menu />
       <Gallery />
-      <Offer />
+      {/* <Offer />
       <Chefs />
       <Testimonials />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 };
