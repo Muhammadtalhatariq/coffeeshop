@@ -42,7 +42,7 @@ const timimg = [
   },
 ];
 
-const page = () => {
+const Footer = () => {
   return (
     <>
       <div
@@ -149,4 +149,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Footer;

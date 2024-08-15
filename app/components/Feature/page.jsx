@@ -17,7 +17,7 @@ const features = [
   },
   {
     id: 3,
-    img:"/coffee.svg" ,
+    img: "/coffee.svg",
     title: "High Quality",
     description:
       "It is a long established fact that a reader will be by the readable content of a page looking at its layout.",
@@ -31,9 +31,7 @@ const features = [
   },
 ];
 
-const page = () => {
-
-
+const Feature = () => {
   return (
     <div
       className="text-white bg-neutral-950 w-full min-h-screen  py-32 p-4"
@@ -71,4 +69,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Feature;

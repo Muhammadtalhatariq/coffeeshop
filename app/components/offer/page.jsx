@@ -39,7 +39,7 @@ const offer = [
   },
 ];
 
-const page = () => {
+const Offer = () => {
   return (
     <section className="offer py-20" id="offer">
       <div>
@@ -83,4 +83,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Offer;

@@ -33,7 +33,7 @@ const team = [
   },
 ];
 
-const page = () => {
+const Chefs = () => {
   return (
     <div
       className="text-white bg-neutral-900 w-full min-h-screen  py-32 p-4"
@@ -46,7 +46,7 @@ const page = () => {
         </h1>
       </div>
       <div className="flex flex-wrap py-6 justify-center">
-        {team.map((item , index) => (
+        {team.map((item, index) => (
           <Card
             key={index}
             className="bg-neutral-950 mx-3 rounded-xl hover:-translate-y-2 duration-1000 "
@@ -87,4 +87,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Chefs;
