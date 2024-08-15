@@ -1,6 +1,6 @@
 import React from "react";
 import { TiTick } from "react-icons/ti";
-const page = () => {
+const About = () => {
   return (
     <div
       className="text-white bg-neutral-950 w-full min-h-screen  py-32 sm:px-32 p-4"
@@ -43,4 +43,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default About;

@@ -1,5 +1,5 @@
 import React from "react";
-import Reservation from "../Reservation/page";
+import Reservation from "../Reservation/";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";

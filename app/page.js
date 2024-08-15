@@ -1,14 +1,14 @@
 import React from "react";
-import Home from "./components/Home/page";
-import About from "./components/About/page";
-import Feature from "./components/Feature/page";
-import Menu from "./components/Menu/page";
-import Gallery from "./components/Gallery/page";
-import Offer from "./components/offer/page";
-import Chefs from "./components/Chefs/page";
-import Testimonials from "./components/Testimonials/page";
-import Footer from "./components/Footer/page";
-const page = () => {
+import Home from "./components/Home";
+import About from "./components/About/index.jsx";
+import Feature from "./components/Feature/index.jsx";
+import Menu from "./components/Menu/index.jsx";
+import Gallery from "./components/Gallery/index.jsx";
+import Offer from "./components/offer/index.jsx";
+import Chefs from "./components/Chefs/index.jsx";
+import Testimonials from "./components/Testimonials/index.jsx";
+import Footer from "./components/Footer/index.jsx";
+const App = () => {
   return (
     <div>
       <Home />
@@ -24,4 +24,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default App;
