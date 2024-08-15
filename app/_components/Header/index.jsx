@@ -44,7 +44,7 @@ const Header = () => {
 
   return (
     <>
-      <div className=" bg-black z-50 fixed h-12 w-full font-serif text-white pt-6 px-4 sm:px-24 sm:p-12 flex justify-between items-center ">
+      <div className=" bg-black font-sans z-50 fixed h-12 w-full  text-white pt-6 px-4 sm:px-24 sm:p-12 flex justify-between items-center ">
         <div className="flex items-center">
           <SiCoffeescript size={25} />
           <h2 className="p-2 sm:text-4xl text-2xl ">CoffeeQ</h2>
