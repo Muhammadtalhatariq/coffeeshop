@@ -1,6 +1,6 @@
 // import { Inter } from "next/font/google";
 import "./globals.css";
-import Header from "./components/Header/page";
+import Header from "./_components/Header";
 import { Lobster_Two } from "next/font/google";
 
 const Lobster = Lobster_Two({

@@ -1,6 +1,6 @@
 import React from "react";
 
-const page = () => {
+const Gallery = () => {
   return (
     <div
       className="text-white bg-neutral-950 w-full min-h-screen  py-32 p-4"
@@ -13,38 +13,38 @@ const page = () => {
         </p>
       </div>
       <div className="flex flex-wrap flex-col items-center justify-center sm:flex-row gap-5 sm:px-14 ">
-      <div className="w-[21rem] h-[420px] bg-[url('/gallery-1.jpg')] rounded-2xl bg-cover bg-no-repeat">
-        <h3 className="rounded-xl bg-neutral-800 text-center bottom-0 p-4 mx-6 mt-80">
+        <div className="w-[21rem] h-[420px] bg-[url('/gallery-1.jpg')] rounded-2xl bg-cover bg-no-repeat">
+          <h3 className="rounded-xl bg-neutral-800 text-center bottom-0 p-4 mx-6 mt-80">
             Cappuccino Arabica
           </h3>
         </div>
-       
+
         <div className="w-[21rem] h-[420px] bg-[url('/gallery-2.jpg')] rounded-2xl bg-cover bg-no-repeat  ">
-        <h3 className="rounded-xl bg-neutral-800 text-center bottom-0 p-4 mx-6 mt-80">
+          <h3 className="rounded-xl bg-neutral-800 text-center bottom-0 p-4 mx-6 mt-80">
             Cappuccino Arabica
           </h3>
         </div>
 
         <div className="w-[21rem] h-[420px] bg-[url('/gallery-3.jpg')] rounded-2xl bg-cover bg-no-repeat  ">
-        <h3 className="rounded-xl bg-neutral-800 text-center bottom-0 p-4 mx-6 mt-80">
+          <h3 className="rounded-xl bg-neutral-800 text-center bottom-0 p-4 mx-6 mt-80">
             Cappuccino Arabica
           </h3>
         </div>
 
         <div className="w-[21rem] h-[420px] bg-[url('/gallery-4.jpg')] rounded-2xl bg-cover bg-no-repeat  ">
-        <h3 className="rounded-xl bg-neutral-800 text-center bottom-0 p-4 mx-6 mt-80">
+          <h3 className="rounded-xl bg-neutral-800 text-center bottom-0 p-4 mx-6 mt-80">
             Cappuccino Arabica
           </h3>
         </div>
 
         <div className="w-[21rem] h-[420px] bg-[url('/gallery-5.jpg')] rounded-2xl bg-cover bg-no-repeat  ">
-        <h3 className="rounded-xl bg-neutral-800 text-center bottom-0 p-4 mx-6 mt-80">
+          <h3 className="rounded-xl bg-neutral-800 text-center bottom-0 p-4 mx-6 mt-80">
             Cappuccino Arabica
           </h3>
         </div>
 
         <div className="w-[21rem] h-[420px] bg-[url('/gallery-2.jpg')] rounded-2xl bg-cover bg-no-repeat  ">
-        <h3 className="rounded-xl bg-neutral-800 text-center bottom-0 p-4 mx-6 mt-80">
+          <h3 className="rounded-xl bg-neutral-800 text-center bottom-0 p-4 mx-6 mt-80">
             Cappuccino Arabica
           </h3>
         </div>
@@ -53,4 +53,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Gallery;

@@ -86,7 +86,7 @@ const Choose_us = [
   },
 ];
 
-const page = () => {
+const Menu = () => {
   return (
     <div className="text-white w-full" id="Menu">
       <div className="w-full p-4 bg-[url('/menu.jpg')] bg-cover">
@@ -210,4 +210,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Menu;

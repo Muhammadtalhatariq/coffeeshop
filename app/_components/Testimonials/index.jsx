@@ -29,7 +29,7 @@ const testimonials = [
   },
 ];
 
-const page = () => {
+const Testimonials = () => {
   return (
     <div
       className="text-white bg-neutral-900 w-full min-h-screen py-32 p-4"
@@ -75,4 +75,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Testimonials;
