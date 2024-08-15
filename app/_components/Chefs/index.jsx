@@ -1,5 +1,6 @@
+"use client";
 import React from "react";
-import Reservation from "../Reservation/index";
+import Reservation from "../Reservation/index.jsx";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
